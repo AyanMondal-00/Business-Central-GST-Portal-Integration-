@@ -44,6 +44,10 @@ table 50100 "GST Recon Entry"
         {
             OptionMembers = Matched,Unmatched,Partial;
         }
+        field(10; "Mobile No."; Text[15])
+        {
+            DataClassification = CustomerContent;
+        }
     }
 
     keys

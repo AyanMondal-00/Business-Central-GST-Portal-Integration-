@@ -47,6 +47,10 @@ page 50100 "GST Recon List"
                 {
                     ApplicationArea = All;
                 }
+                field("Mobile No."; Rec."Mobile No.")
+                {
+                    ApplicationArea = All;
+                }
             }
         }
     }
@@ -84,7 +88,7 @@ page 50100 "GST Recon List"
                         exit;
 
                     Window.Open('Reading JSON file...\\Please wait.');
-                    
+
                     while not InS.EOS() do begin
                         InS.ReadText(Line);
                         JsonText += Line;
@@ -99,7 +103,7 @@ page 50100 "GST Recon List"
                     foreach JsonToken in JsonArray do begin
                         Counter += 1;
                         Window.Update(1, Counter);
-                        
+
                         JsonObject := JsonToken.AsObject();
 
                         Clear(InvoiceNo);
@@ -127,7 +131,7 @@ page 50100 "GST Recon List"
                             end;
                         end;
                     end;
-                    
+
                     Window.Close();
                     Message('JSON Imported and Matched Successfully!\Processed %1 records.', Counter);
                 end;

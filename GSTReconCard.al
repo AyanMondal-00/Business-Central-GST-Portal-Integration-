@@ -62,6 +62,10 @@ page 50101 "GST Recon Card"
                 {
                     ApplicationArea = All;
                 }
+                field("Mobile No."; Rec."Mobile No.")
+                {
+                    ApplicationArea = All;
+                }
             }
         }
     }
