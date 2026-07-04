@@ -136,6 +136,21 @@ page 50100 "GST Recon List"
                     Message('JSON Imported and Matched Successfully!\Processed %1 records.', Counter);
                 end;
             }
+
+            action(ImportFromAPI)
+            {
+                Caption = 'Import From API';
+                ApplicationArea = All;
+                Image = Import;
+
+                trigger OnAction()
+                var
+                    GSTAPI: Codeunit "GST API Management";
+                begin
+                    GSTAPI.ImportFromAPI();
+                    CurrPage.Update(false);
+                end;
+            }
         }
     }
 }

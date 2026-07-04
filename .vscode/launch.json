@@ -12,6 +12,14 @@
             "breakOnError": "All",
             "launchBrowser": true,
             "authentication": "AAD"
+        },
+        {
+            "name": "AL: Generated Download Symbols request",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox",
+            "tenant": "c6741145-51b6-4d6b-ae30-a5adbf7ac21a"
         }
     ]
 }
