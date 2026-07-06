@@ -18,7 +18,7 @@ pageextension 50100 CustomerListExt extends "Customer List"
                 var
                     CashAPI: Codeunit "Cash Voucher API Mgmt";
                 begin
-                    CashAPI.TestJournalLine();
+                    CashAPI.ImportFromAPI();
                 end;
             }
         }
