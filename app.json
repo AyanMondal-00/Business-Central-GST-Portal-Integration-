@@ -10,10 +10,65 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id": "d3c551dd-5903-4194-b153-04ced9d29a2c",
+      "name": "India Tax Base",
+      "publisher": "Microsoft",
+      "version": "28.2.0.0"
+    },
+    {
+      "id": "b3780cd9-f8f8-4a83-a4d5-0c2ad87b28af",
+      "name": "Sustainability",
+      "publisher": "Microsoft",
+      "version": "28.2.0.0"
+    },
+    {
+      "id": "07729019-da51-4639-a987-3db38ccc62c7",
+      "name": "India Charge Group",
+      "publisher": "Microsoft",
+      "version": "28.2.0.0"
+    },
+    {
+      "id": "e1d97edc-c239-46b4-8d84-6368bdf67c8b",
+      "name": "E-Document Core",
+      "publisher": "Microsoft",
+      "version": "28.2.0.0"
+    },
+    {
+      "id": "eae5779e-7797-4c4c-977e-7516652b7a65",
+      "name": "India TDS",
+      "publisher": "Microsoft",
+      "version": "28.2.0.0"
+    },
+    {
+      "id": "5f2e93a0-6083-4718-b05a-7ac89be5644d",
+      "name": "External Storage - Document Attachments",
+      "publisher": "Microsoft",
+      "version": "28.2.0.0"
+    },
+    {
+      "id": "3099ffc7-4cf7-4df6-9b96-7e4bc2bb587c",
+      "name": "Subscription Billing",
+      "publisher": "Microsoft",
+      "version": "28.2.0.0"
+    },
+    {
+      "id": "db643212-b7fb-4dd4-b5a8-cb44ac714461",
+      "name": "India GST",
+      "publisher": "Microsoft",
+      "version": "28.2.0.0"
+    },
+    {
+      "id": "14aa1237-2f69-4c25-9a68-fa7d54e08613",
+      "name": "Payables Agent",
+      "publisher": "Microsoft",
+      "version": "28.2.0.0"
+    }
+  ],
   "screenshots": [],
   "platform": "28.0.0.0",
-  "application": "28.0.0.0",
+  "application": "28.2.0.0",
   "idRanges": [
     {
       "from": 50100,
@@ -26,7 +81,5 @@
     "includeSourceInSymbolFile": true
   },
   "runtime": "17.0",
-  "features": [
-    "NoImplicitWith"
-  ]
+  "features": ["NoImplicitWith"]
 }

@@ -11,7 +11,8 @@
             "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,
-            "authentication": "AAD"
+            "authentication": "AAD",
+            
         },
         {
             "name": "AL: Generated Download Symbols request",
@@ -19,6 +20,17 @@
             "type": "al",
             "environmentType": "Sandbox",
             "environmentName": "Sandbox",
+            "tenant": "c6741145-51b6-4d6b-ae30-a5adbf7ac21a"
+        },
+        {
+            "name": "AL: Generated Snapshot request",
+            "request": "snapshotInitialize",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox",
+            "sessionId": 15242,
+            "breakOnNext": "WebClient",
+            "executionContext": "DebugAndProfile",
             "tenant": "c6741145-51b6-4d6b-ae30-a5adbf7ac21a"
         }
     ]
